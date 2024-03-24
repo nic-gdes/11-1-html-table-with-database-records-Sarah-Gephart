@@ -1,0 +1,84 @@
+* {
+  font-family: "lora", serif;
+}
+
+/* body {
+  background-color: rgb(224, 135, 163);
+  margin: 0 auto;
+} */
+
+h1 {
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  font-family: "josefin sans", sans-serif;
+  font-size: 5rem;
+}
+
+h1:hover {
+  transition: 0.3s ease-in-out;
+  color: #f26f62;
+}
+
+p {
+  text-align: center;
+  font-family: "josefin sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+
+
+.product-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+}
+
+.product-table thead tr {
+  background-color: #f26f62;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.product-table th, .product-table td {
+  padding: 12px 15px;
+}
+
+.product-table tbody tr {
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid rgb(143, 129, 129);
+}
+
+.product-table tbody tr:nth-of-type(odd) {
+  background-color: white;
+}
+
+.product-table tbody tr:nth-of-type(even) {
+  background-color: #f3d5d5;
+}
+
+.product-table tbody tr:last-of-type {
+  border-bottom: 2px solid #f26f62;
+}
+
+.product-table tbody tr:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #aa6868;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
